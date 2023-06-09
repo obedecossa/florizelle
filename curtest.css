@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #8C8C8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #BABABA;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb (0,0,0,1);
+}
+.container .left_side{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.texto_img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.texto_img .imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.texto_img .imagem img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+.texto_img h1{
+    color: black;
+    font-size: medium;
+    margin-top: 20;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.texto_img h1 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.Dados_pessoais{
+    position: relative;
+    align-items: left;
+    padding-bottom: 10px;
+}
+
+.Contacto{
+    position: relative;
+    align-items: left;
+    padding-bottom: 10px;
+}
+
+.Dominio_de_linguas {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+} 
+
+.Dominio_de_linguas .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+
+.Dominio_de_linguas .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #7F7F7F;
+
+}
+
+.Dados_pessoais ul li {
+   position: relative;
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer; 
+}
+
+.Contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.Contacto ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #7F7F7F;
+}
+
+.Dominio_de_linguas ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.h2{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(202, 226, 202);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container .right_side{
+    position: relative;
+    background-color: #CDCDCD;
+    padding: 20px;
+}
+
+.right_side .text span{
+    margin-bottom: 20px;
+}
+
+.Halibitacoes_literarias li {
+    margin-bottom: 15px;
+}
+
+.Halibitacoes_literarias h3{
+    color: #5E5E5E;
+    font-weight: 500;
+}
+
+.Halibitacoes_literarias h4 nt{
+    color: black;
+    font-weight: 300;
+}
+
+.Halibitacoes_literarias ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointe 
+}
